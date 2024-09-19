@@ -1,0 +1,63 @@
+/* src/pages/CategoryListPage.css */
+
+.category-list-page {
+  padding: 2rem;
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f4f8; /* Ensure this matches the body or parent container */
+  text-align: center;
+  min-height: 100vh; /* Ensure the page takes the full viewport height */
+  box-sizing: border-box;
+}
+
+.category-list-page h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #1e88e5;
+  text-transform: uppercase;
+}
+
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  justify-items: center;
+}
+
+.category-card {
+  width: 300px; /* Further increased the width */
+  height: 300px; /* Adjusted height to maintain proportions */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  overflow: hidden;
+}
+
+.category-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.category-image {
+  width: 150px; /* Increased image size */
+  height: 0px; /* Increased image size */
+  margin-top: 1.5rem;
+  border-radius: 50%;
+  object-fit: cover;
+  transition: transform 0.3s;
+}
+
+.category-card:hover .category-image {
+  transform: scale(1.1);
+}
+
+.category-name {
+  font-size: 1.5rem; /* Increased font size */
+  margin: 1rem 0;
+  color: #333;
+  font-weight: bold;
+  text-transform: capitalize;
+}

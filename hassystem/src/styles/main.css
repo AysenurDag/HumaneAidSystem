@@ -1,0 +1,13 @@
+/* src/styles/main.css */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  main {
+    padding: 2rem;
+    padding-bottom: 4rem; /* Add padding to prevent overlap with footer */
+  }
+  

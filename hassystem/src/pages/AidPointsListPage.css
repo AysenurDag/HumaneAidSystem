@@ -1,0 +1,64 @@
+/* src/pages/AidPointsListPage.css */
+
+.aid-points-list-page {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
+}
+
+.aid-points-list-page h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: #1e88e5;
+}
+
+.aid-points-list-page .aid-point-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.aid-points-list-page .aid-point-list li {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+  cursor: pointer;
+}
+
+.aid-points-list-page .aid-point-list li:hover {
+  background-color: #f1f1f1;
+}
+
+.aid-points-list-page .aid-point-list li h3 {
+  margin: 0;
+  font-size: 1.25rem;
+  color: #333;
+}
+
+.aid-points-list-page .aid-point-list li p {
+  margin: 0.5rem 0 0;
+  color: #666;
+}
+
+.aid-points-list-page button {
+  display: block;
+  margin: 1rem auto 0;
+  padding: 0.75rem 1.5rem;
+  background-color: #1e88e5;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.aid-points-list-page button:hover {
+  background-color: #1565c0;
+}

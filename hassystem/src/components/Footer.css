@@ -1,0 +1,17 @@
+/* src/components/Footer.css */
+
+.footer {
+  background-color: #1e88e5;
+  color: white;
+  text-align: center;
+  padding: 0.5rem 0;  /* Reduced padding */
+  font-size: 0.8rem;  /* Reduced font size */
+  position: relative;
+  width: 100%;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

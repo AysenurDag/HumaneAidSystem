@@ -1,0 +1,191 @@
+/* src/pages/ProductsPage.css */
+
+.products-page {
+  padding: 2rem;
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f4f8;
+  text-align: center;
+  min-height: 100vh;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.products-page h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #1e88e5;
+  text-transform: uppercase;
+}
+
+.search-bar {
+  margin-bottom: 1.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.search-bar input {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 300px;
+}
+
+.categories {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.category-button {
+  background-color: #e0e0e0;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin: 0 0.5rem;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.category-button.active,
+.category-button:hover {
+  background-color: #1e88e5;
+  color: white;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.product-card {
+  width: 200px;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  background-color: white;
+}
+
+.product-card img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.product-card p {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.product-card button {
+  padding: 0.5rem 1rem;
+  background-color: #1e88e5;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.product-card button:hover {
+  background-color: #1565c0;
+}
+
+.requests-section {
+  margin-top: 2rem;
+  text-align: left;
+}
+
+.requests-section h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.requests {
+  margin-bottom: 1rem;
+}
+
+.region-select {
+  margin-bottom: 1rem;
+}
+
+.region-select label {
+  font-weight: bold;
+  margin-right: 0.5rem;
+}
+
+.region-select select {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.requests-section button {
+  padding: 0.75rem 1.5rem;
+  background-color: #1e88e5;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.requests-section button:disabled {
+  background-color: #ddd;
+  cursor: not-allowed;
+}
+
+.requests-section button:hover:not(:disabled) {
+  background-color: #1565c0;
+}
+
+.message {
+  margin-top: 1rem;
+  color: red;
+}
+
+.aid-points-list {
+  margin-top: 2rem;
+  text-align: left;
+}
+
+.aid-points-list h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.aid-points-list p {
+  margin-bottom: 0.5rem;
+}
+
+.make-request-button {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  padding: 1rem 2rem;
+  background-color: #1e88e5;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s, transform 0.3s;
+  width: 180px; /* Adjust width to make it more oval */
+  height: 50px; /* Adjust height to make it more oval */
+}
+
+.make-request-button:hover {
+  background-color: #1565c0;
+  transform: translateY(-3px);
+}

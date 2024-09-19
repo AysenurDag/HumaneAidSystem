@@ -1,0 +1,83 @@
+/* src/pages/GiveHelpPage.css */
+
+.give-help-page {
+  padding: 2rem;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  background-color: #f0f4f8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.give-help-page h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #1e88e5;
+}
+
+.give-help-page form {
+  width: 100%;
+  max-width: 600px;
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.help-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+
+.help-item select,
+.help-item input {
+  margin-right: 1rem;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  flex: 1;
+  min-width: 100px;
+}
+
+.help-item input[type="number"] {
+  max-width: 100px;
+}
+
+.help-item button {
+  padding: 0.5rem 1rem;
+  background-color: #e53935;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s, transform 0.3s;
+  margin-top: 1rem; /* Adjust margin for better spacing */
+}
+
+.help-item button:hover {
+  background-color: #c62828;
+  transform: translateY(-2px);
+}
+
+.give-help-page button {
+  padding: 0.75rem 1.5rem;
+  background-color: #1e88e5;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 4px;
+  transition: background-color 0.3s, transform 0.3s;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.give-help-page button:hover {
+  background-color: #1565c0;
+  transform: translateY(-2px);
+}

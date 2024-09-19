@@ -1,0 +1,37 @@
+/* src/components/HomeContent.css */
+
+.home-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    background-color: #e3f2fd;
+  }
+  
+  .map-container {
+    width: 60%;
+    height: 400px;
+    border: 1px solid #ccc;
+  }
+  
+  .login-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .login-button {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: #1e88e5;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .login-button:hover {
+    background-color: #1565c0;
+  }
+  

@@ -1,0 +1,55 @@
+/* src/pages/AidPointDetailsPage.css */
+
+.aid-point-details-page {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
+}
+
+.aid-point-details-page h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: #1e88e5;
+}
+
+.aid-point-details-page .details {
+  margin-bottom: 1.5rem;
+}
+
+.aid-point-details-page .details label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.aid-point-details-page .details p {
+  margin-bottom: 1rem;
+}
+
+.aid-point-details-page .product-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.aid-point-details-page .product-list li {
+  margin-bottom: 0.5rem;
+}
+
+.aid-point-details-page button {
+  padding: 0.75rem;
+  background-color: #1e88e5;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.aid-point-details-page button:hover {
+  background-color: #1565c0;
+}
